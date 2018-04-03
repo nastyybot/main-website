@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <title>N A S T Y | Dashboard</title>
+        <link rel="icon" href="/assets/img/Nasty Logo.png">
+        <link rel="shortcut icon" type="image/x-icon" href="/assets/img/Logo.png" />
+
+        <link href="https://fonts.googleapis.com/css?family=Nova+Flat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+
+        <!-- CSS -->
+        <style>
+            html {
+                background-color: #7289DA;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #7289DA;
+            }
+            li {
+                float: right;
+                cursor: pointer;
+            }
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                cursor: pointer;
+            }
+            li a:hover {
+                background-color: #111;
+            }
+            body, html {
+                height: 100%;
+                margin: 0;
+            }
+            .bgimg {
+                background-image: url('http://www.artofadambetts.com/images/postgraphics/downloads/desktopbgs/conquertheuniverse-alt.png');
+                height: 100%;
+                background-position: center;
+                background-size: cover;
+                position: relative;
+                color: white;
+                font-family: "Courier New", Courier, monospace;
+                font-size: 25px;
+            }
+            .topleft {
+                position: absolute;
+                top: 0;
+                left: 16px;
+            }
+            .bottomleft {
+                position: absolute;
+                bottom: 0;
+                left: 16px;
+            }
+            .middle {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+            }
+            hr {
+                margin: auto;
+                width: 40%;
+            }
+            a:active {
+                color: #7289DA;
+            }
+            a:visited {
+                color: #99AAB5;
+            }
+        </style>
+
+    </head>
+
+    <body>      
+        <div class="bgimg">
+          <div class="middle">
+            <img id="avatar" /><br/>
+            <h1>COMING SOON</h1>
+            <hr>
+              <p>Join the <a href="http://bit.ly/nastyserver">Discord Server</a> for updates on this site!</p>
+              <p>Sorry,<span id="userid"></span>, this site is under development.</p>
+              <p><a onclick="logout();">Click here to log out</a></p>
+          </div>
+        </div>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.4/typed.min.js"></script>
+</html>
